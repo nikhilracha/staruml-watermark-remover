@@ -17,13 +17,15 @@ java -jar target/staruml-watermark.jar
 ```
 
 Remove watermarks for a directory
+
+Go into the directory and then use this command
 ```bash
-java -jar target/staruml-watermark.jar -d C:/path/to/project
+java -jar target/staruml-watermark.jar -d /path/to/project
 ```
 
 Remove watermarks for a directory recursively
 ```bash
-java -jar target/staruml-watermark.jar -r -d C:/path/to/project
+java -jar target/staruml-watermark.jar -r -d /path/to/project
 ```
 
 
